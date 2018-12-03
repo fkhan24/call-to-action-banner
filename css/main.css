@@ -1,7 +1,53 @@
 html {
   box-sizing: border-box;
+  font: normal 100%/1.5 sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.hero {
+  margin: 1em;
+  margin-top: -1em;
+  width: 33%;
+}
+
+.banner {
+  max-height: 500px;
+}
+
+.banner-content {
+  max-width: 45em;
+}
+
+.btn {
+  color: #fff;
+  background-color: #333;
+  display: inline-block;
+  font-size: 1.125rem;
+  border: 3px solid;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  padding: .4em .75em .3em;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
 }
